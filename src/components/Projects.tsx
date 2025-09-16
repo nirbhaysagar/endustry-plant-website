@@ -12,30 +12,48 @@ const Projects = () => {
       sourceUrl: "#" // <-- Add the source code link here
     },
     {
-      title: "SaaS Platform for Notes",
-      description: "Collaborative note-taking application with real-time sync and AI-powered organization.",
+      title: "Creative Studio Agency",
+      description: "Build a Create studio Agency website from Scratch in under 7 days",
       tech: ["Next.js", "Supabase", "TypeScript", "Tailwind"],
-      status: "Beta",
+      status: "Live",
       // --- ADD YOUR LINKS FOR THIS PROJECT HERE ---
-      liveUrl: "#", // <-- Add the live project link here
+      liveUrl: "https://stonepaperscissors.in/", // <-- Add the live project link here
       sourceUrl: "#" // <-- Add the source code link here
     },
     {
-      title: "E-commerce Analytics",
-      description: "Advanced analytics dashboard for e-commerce businesses with predictive insights.",
-      tech: ["Vue.js", "Python", "TensorFlow", "PostgreSQL"],
-      status: "Development",
+      title: "Dreams in Frames",
+      description: "A wedding photography website showcasing stunning portfolios and seamless booking experiences.",
+      tech: ["TailwindCSS", "NextJs", "Supabase", "GSAP" ],
+      status: "Live",
       // --- ADD YOUR LINKS FOR THIS PROJECT HERE ---
-      liveUrl: "#", // <-- Add the live project link here
+      liveUrl: "https://www.dreamsinframes.in/", // <-- Add the live project link here
       sourceUrl: "#" // <-- Add the source code link here
     },
     {
-      title: "Healthcare MVP",
-      description: "Digital health platform connecting patients with healthcare providers seamlessly.",
-      tech: ["React Native", "Firebase", "ML Kit", "Stripe"],
+      title: "Webwoon",
+      description: "A new age  tool that merges Instagram and Pinterest to create a unique social media experience.",
+      tech: ["React Native", "NextJS", "TailwinCSS", "Stripe"],
       status: "Prototype",
       // --- ADD YOUR LINKS FOR THIS PROJECT HERE ---
       liveUrl: "#", // <-- Add the live project link here
+      sourceUrl: "#" // <-- Add the source code link here
+    },
+    {
+      title: "Bijnis",
+      description: "India’s leading digital platforms where retailers can buy clothing and footwear products at wholesale prices.",
+      tech: ["React Native", "NextJS", "TailwinCSS", "Stripe"],
+      status: "Prototype",
+      // --- ADD YOUR LINKS FOR THIS PROJECT HERE ---
+      liveUrl: "https://play.google.com/store/apps/details?id=com.shoekonnect.bizcrum&pli=1", // <-- Add the live project link here
+      sourceUrl: "#" // <-- Add the source code link here
+    },
+    {
+      title: "Veera health",
+      description: "Veera Health, the world's largest online PCOS clinic, specialising in PCOS, weight loss management, and hormonal health treatments.",
+      tech: ["React Native", "NextJS", "TailwinCSS", "Stripe"],
+      status: "Live",
+      // --- ADD YOUR LINKS FOR THIS PROJECT HERE ---
+      liveUrl: "https://play.google.com/store/apps/details?id=com.veerahealth.pcosapp", // <-- Add the live project link here
       sourceUrl: "#" // <-- Add the source code link here
     }
   ];
