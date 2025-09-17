@@ -19,7 +19,7 @@ const Hero = () => {
       <div className="relative z-10 text-center px-15p max-w-4xl animate-fade-in">
         {/* Y Combinator Badge */}
         <div className="mb-8 animate-bounce-in">
-          <span className="inline-block bg-orange text-orange-foreground px-4 py-2 rounded-full font-handwritten text-sm transform rotate-1">
+          <span className="inline-block bg-orange text-orange-foreground px-4 py-2 rounded-full font-rubik text-xl transform rotate-1">
             Rejected by Y Combinator
           </span>
         </div>

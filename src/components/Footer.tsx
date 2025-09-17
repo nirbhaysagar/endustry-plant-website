@@ -10,6 +10,7 @@ const Footer = () => {
             <div className="font-fjalla font-bold text-xl mb-2">
               Endustry Plant
             </div>
+            <div className="font-fjalla font-monospace text-lg mb-2">endustryplantofficial@gmail.com</div>
             <p className="text-muted-foreground font-rubik text-sm">
               © 2025 Endustry Plant. All rights reserved.
             </p>
