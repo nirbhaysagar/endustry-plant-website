@@ -11,6 +11,7 @@ import ProjectDetailPage from "./pages/ProjectDetail";
 import TermsAndConditions from "./pages/TermsAndConditions";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import FloatingContact from "@/components/FloatingContact";
+import Contact from './pages/Contact';
 
 const queryClient = new QueryClient();
 
@@ -29,6 +30,7 @@ const RoutedShell = () => {
         <Route path="/privacy" element={<PrivacyPolicy />} />
         {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
         <Route path="*" element={<NotFound />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
       {!isHome && <FloatingContact />}
     </>

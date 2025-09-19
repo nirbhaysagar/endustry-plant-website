@@ -96,14 +96,14 @@ export const projects: Project[] = [
     date: "2023"
   },
   {
-    id: "webwoon",
-    title: "Webwoon",
-    description: "A new age tool that merges Instagram and Pinterest to create a unique social media experience.",
-    detailedDescription: "Webwoon is an innovative social media platform that bridges the gap between Instagram's storytelling and Pinterest's visual discovery. Users can create, curate, and share visual content with enhanced interaction features. The platform features advanced image processing, social networking capabilities, and monetization tools for content creators.",
+    id: "Partsbaba",
+    title: "Partsbaba",
+    description: "your on stop solution for getting all the parts from IT to garden to Supplies.",
+    detailedDescription: "Parts baba is one stop solution for getting all the parts for usage ranging from IT, Printers, Cables everything that you might need to make your things work .",
     features: [
-      "Visual content creation tools",
-      "Social networking features",
-      "Advanced image processing",
+      "E-Commerce Site for tools",
+      "Payment & CheckOut",
+      "Advanced filter and Cart processing",
       "Content monetization",
       "Cross-platform sharing",
       "Analytics dashboard",
@@ -116,8 +116,35 @@ export const projects: Project[] = [
       "Scaling for growing user base"
     ],
     tech: ["React Native", "Next.js", "TailwindCSS", "Stripe", "AWS"],
-    status: "Prototype",
-    liveUrl: "#",
+    status: "Live",
+    liveUrl: "https://partsbaba.com/",
+    sourceUrl: "#",
+    images: [],
+    date: "2024"
+  },
+  {
+    id: "islandrangoli",
+    title: "Island Rangoli",
+    description: "Radiant Rangoli mats to elegant wall art, our collection is crafted to infuse joy and heritage into your celebration.",
+    detailedDescription: "Island Rangoli is a collection of Rangoli mats, each one woven with a sense of beauty and a purpose to transmit positive energy. A versatile collection of rangoli mats inspired by distinct cultures of our countrys.",
+    features: [
+      "Appealing design for all",
+      "cart Management",
+      "Advanced Search  processing",
+      "Content monetization",
+      "Cross-platform sharing",
+      "Analytics dashboard",
+      "Community building tools"
+    ],
+    challenges: [
+      "Developing unique user experience",
+      "Managing large volumes of media content",
+      "Implementing real-time features",
+      "Scaling for growing user base"
+    ],
+    tech: ["React Native", "Next.js", "TailwindCSS", "Stripe", "AWS"],
+    status: "Live",
+    liveUrl: "https://islandrangoli.com/",
     sourceUrl: "#",
     images: [],
     date: "2024"
