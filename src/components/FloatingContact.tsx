@@ -8,7 +8,6 @@ const WHATSAPP_NUMBER = "1234567890"; // digits only for wa.me
 
 const FloatingContact = () => {
   const barRef = useRef<HTMLDivElement | null>(null);
-  const fabRef = useRef<HTMLAnchorElement | null>(null);
 
   // Soft dependency on GSAP to animate buttons
   useEffect(() => {
@@ -16,7 +15,8 @@ const FloatingContact = () => {
     (async () => {
       try {
         const mod = await import("gsap");
-        const gsap = (mod as any).gsap || (mod as any).default || mod;
+        
+const gsap = mod.gsap || mod.default || mod;
         if (!mounted || !barRef.current) return;
         const items = barRef.current.querySelectorAll("[data-fc]");
         gsap.from(items, {
@@ -26,15 +26,6 @@ const FloatingContact = () => {
           stagger: 0.08,
           ease: "power3.out",
         });
-        if (fabRef.current) {
-          gsap.from(fabRef.current, {
-            scale: 0.85,
-            opacity: 0,
-            duration: 0.4,
-            ease: "back.out(1.7)",
-            delay: 0.15,
-          });
-        }
       } catch {
         // If gsap is not installed, skip animation silently
       }
@@ -83,19 +74,7 @@ const FloatingContact = () => {
           </a>
         </div>
       </div>
-
-      {/* Extra WhatsApp floating button in bottom-right (appears on all pages) */}
-      <a
-        ref={fabRef}
-        href={`https://wa.me/${WHATSAPP_NUMBER}`}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="fixed bottom-4 right-4 md:bottom-6 md:right-6 w-14 h-14 rounded-full bg-green-500 text-white shadow-lg flex items-center justify-center hover:opacity-90 z-50"
-        aria-label="WhatsApp"
-        title="Chat on WhatsApp"
-      >
-        <MessageCircle size={22} />
-      </a>
+      {/* Removed the extra floating WhatsApp button */}
     </>
   );
 };

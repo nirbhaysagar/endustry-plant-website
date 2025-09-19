@@ -14,6 +14,7 @@ import FloatingContact from "@/components/FloatingContact";
 import Contact from './pages/Contact';
 import ScrollToTop from "./components/ScrollToTop";
 import Header from "./components/Header";
+import WhatsAppButton from "@/components/WhatsAppButton";
 
 
 const queryClient = new QueryClient();
@@ -38,6 +39,7 @@ const RoutedShell = () => {
         
       </Routes>
       {!isHome && <FloatingContact />}
+      <WhatsAppButton />
     </>
   );
 };

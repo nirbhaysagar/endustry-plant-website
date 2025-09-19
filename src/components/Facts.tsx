@@ -1,7 +1,7 @@
 const Facts = () => {
   const facts = [
     {
-      title: "Launched in 2025",
+      title: "Launched in 2022",
       description: "Fresh perspective, cutting-edge solutions"
     },
     {
