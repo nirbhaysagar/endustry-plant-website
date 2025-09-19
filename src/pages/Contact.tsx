@@ -92,8 +92,8 @@ const Contact = () => (
     </div>
 
     {/* Big Endustry Plant at the bottom */}
-    <div className="mt-14 flex justify-center">
-      <span className="font-fjalla font-bold text-[60px] leading-none text-center w-full block">
+    <div className="mt-14 mb-10 flex justify-center ">
+      <span className="font-fjalla font-bold text-[100px] leading-none text-center w-full block">
         Endustry Plant
       </span>
     </div>

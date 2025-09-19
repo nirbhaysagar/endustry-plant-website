@@ -12,6 +12,8 @@ import TermsAndConditions from "./pages/TermsAndConditions";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import FloatingContact from "@/components/FloatingContact";
 import Contact from './pages/Contact';
+import ScrollToTop from "./components/ScrollToTop";
+
 
 const queryClient = new QueryClient();
 
@@ -31,11 +33,13 @@ const RoutedShell = () => {
         {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
         <Route path="*" element={<NotFound />} />
         <Route path="/contact" element={<Contact />} />
+        
       </Routes>
       {!isHome && <FloatingContact />}
     </>
   );
 };
+
 
 const App = () => (
   <QueryClientProvider client={queryClient}>
@@ -43,6 +47,7 @@ const App = () => (
       <Toaster />
       <Sonner />
       <BrowserRouter>
+        <ScrollToTop /> {/* <-- Add this line */}
         <RoutedShell />
       </BrowserRouter>
     </TooltipProvider>
