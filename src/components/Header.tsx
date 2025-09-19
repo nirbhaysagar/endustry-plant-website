@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Link } from "react-router-dom";
 import { Menu, X } from 'lucide-react';
 
 const Header = () => {
@@ -18,12 +19,14 @@ const Header = () => {
         
         {/* Logo and Company Name */}
         <div className="flex items-center font-fjalla font-bold text-2xl">
+          <Link to="/" className="flex items-center">
           <img
             src="/logo3.png"
             alt="Logo"
             className="w-10 h-10 mr-4"
           />
           Endustry Plant
+          </Link>
         </div>
 
         {/* Desktop Navigation */}

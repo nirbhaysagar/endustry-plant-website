@@ -1,3 +1,5 @@
+
+
 const Contact = () => (
   <section className="py-10 px-7p max-w-xl mx-auto">
     <h2 className="text-3xl font-bold font-fjalla mb-3">Contact Us</h2>
