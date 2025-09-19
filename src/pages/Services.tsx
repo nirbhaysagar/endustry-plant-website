@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { services } from "@/data/services";
+import SimpleTestimonials from "@/components/SimpleTestimonials";
 
 const ServicesPage = () => {
   return (
@@ -37,6 +38,8 @@ const ServicesPage = () => {
             </Link>
           ))}
         </div>
+
+        <SimpleTestimonials />
       </main>
     </div>
   );

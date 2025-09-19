@@ -1,5 +1,6 @@
 import { Link, useParams } from "react-router-dom";
 import { getServiceBySlug } from "@/data/services";
+import SimpleTestimonials from "@/components/SimpleTestimonials";
 
 const ServiceDetailPage = () => {
   const { slug } = useParams<{ slug: string }>();
@@ -49,6 +50,8 @@ const ServiceDetailPage = () => {
             </ul>
           </section>
         ) : null}
+
+        <SimpleTestimonials count={1} />
       </main>
     </div>
   );

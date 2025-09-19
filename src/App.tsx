@@ -7,6 +7,9 @@ import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
 import ServicesPage from "./pages/Services";
 import ServiceDetailPage from "./pages/ServiceDetail";
+import ProjectDetailPage from "./pages/ProjectDetail";
+import TermsAndConditions from "./pages/TermsAndConditions";
+import PrivacyPolicy from "./pages/PrivacyPolicy";
 import FloatingContact from "@/components/FloatingContact";
 
 const queryClient = new QueryClient();
@@ -21,6 +24,9 @@ const RoutedShell = () => {
         <Route path="/" element={<Index />} />
         <Route path="/services" element={<ServicesPage />} />
         <Route path="/services/:slug" element={<ServiceDetailPage />} />
+        <Route path="/projects/:id" element={<ProjectDetailPage />} />
+        <Route path="/terms" element={<TermsAndConditions />} />
+        <Route path="/privacy" element={<PrivacyPolicy />} />
         {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
         <Route path="*" element={<NotFound />} />
       </Routes>
