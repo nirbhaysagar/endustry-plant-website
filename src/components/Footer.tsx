@@ -63,6 +63,10 @@ const Footer = () => {
           </div>
         </div>
       </div>
+      <div className="font-bold font-fjalla text-[48px] sm:text-[90px] md:text-[140px] lg:text-[190px] mt-[20px] text-center mb-0">
+  Endustry Plant
+</div>
+      <div className='font-rubik text-[20px] text-center'>your tech nerd guy's team who can code & create what you imagine</div>
     </footer>
   );
 };

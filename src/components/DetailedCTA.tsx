@@ -149,31 +149,16 @@ const DetailedCTA = () => {
                       <SelectValue placeholder="Select budget" />
                     </SelectTrigger>
                     <SelectContent>
-                      <SelectItem value="5k-15k">$5K - $15K</SelectItem>
-                      <SelectItem value="15k-30k">$15K - $30K</SelectItem>
-                      <SelectItem value="30k-50k">$30K - $50K</SelectItem>
-                      <SelectItem value="50k-100k">$50K - $100K</SelectItem>
-                      <SelectItem value="100k+">$100K+</SelectItem>
+                      <SelectItem value="5k-15k">$0K - $5K</SelectItem>
+                      <SelectItem value="15k-30k">$5K - $10K</SelectItem>
+                      <SelectItem value="30k-50k">$10K - $25K</SelectItem>
+                      <SelectItem value="50k-100k">$25K - $50K</SelectItem>
+                      <SelectItem value="100k+">$500K+</SelectItem>
                     </SelectContent>
                   </Select>
                 </div>
 
-                <div>
-                  <label className="block text-sm font-rubik font-medium mb-2">
-                    Timeline
-                  </label>
-                  <Select onValueChange={(value) => handleInputChange('timeline', value)}>
-                    <SelectTrigger>
-                      <SelectValue placeholder="Select timeline" />
-                    </SelectTrigger>
-                    <SelectContent>
-                      <SelectItem value="1-month">1 Month</SelectItem>
-                      <SelectItem value="2-3-months">2-3 Months</SelectItem>
-                      <SelectItem value="3-6-months">3-6 Months</SelectItem>
-                      <SelectItem value="6-months+">6+ Months</SelectItem>
-                    </SelectContent>
-                  </Select>
-                </div>
+                
               </div>
 
               <div>

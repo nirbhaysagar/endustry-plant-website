@@ -19,50 +19,66 @@ export type SimpleTestimonial = {
 export const testimonialsCards: TestimonialCard[] = [
   {
     id: "1",
-    name: "Sarah Johnson",
+    name: "Rajesh Kumar",
     role: "CEO",
-    company: "TechStart Inc.",
-    content: "Endustry Plant transformed our vision into a fully functional SaaS platform in just 8 weeks. Their expertise in modern web technologies and agile methodology exceeded our expectations.",
+    company: "Arham International",
+    content: "Endustry Plant transformed our vision into a fully functional Study Abroad platform powered by AI. Their expertise in modern web technologies and adaptive learning algorithms exceeded our expectations.",
     avatar: "/api/placeholder/64/64"
   },
   {
     id: "2",
-    name: "Michael Chen",
-    role: "Product Manager",
-    company: "InnovateLabs",
-    content: "The MVP they built for us helped us secure $2M in seed funding. The code quality, performance, and scalability considerations were outstanding from day one.",
+    name: "Priya Sharma",
+    role: "Founder",
+    company: "Stone Paper Scissors",
+    content: "The creative agency website they built for us in just 7 days helped us secure major clients. The stunning portfolio showcase and interactive animations perfectly captured our creative brand.",
     avatar: "/api/placeholder/64/64"
   },
   {
     id: "3",
-    name: "Emily Rodriguez",
-    role: "Founder",
-    company: "GreenTech Solutions",
-    content: "Working with Endustry Plant was a game-changer for our startup. They delivered a beautiful, responsive website that perfectly captured our brand and drove significant user engagement.",
+    name: "Ankit Patel",
+    role: "CEO",
+    company: "Dreams in Frames",
+    content: "Working with Endustry Plant was a game-changer for our wedding photography business. They delivered a beautiful website with seamless booking functionality that boosted our bookings by 70%.",
     avatar: "/api/placeholder/64/64"
   },
   {
     id: "4",
-    name: "David Kim",
+    name: "Dr. Vikram Singh",
     role: "CTO",
-    company: "DataFlow Corp",
-    content: "Their custom AI integration saved us months of development time and countless hours of research. The solution seamlessly integrates with our existing systems and has improved our operational efficiency by 40%.",
+    company: "Veera Health",
+    content: "Their AI-powered symptom tracking and telemedicine platform revolutionized our PCOS treatment approach. The solution seamlessly integrates with our healthcare systems and improved patient satisfaction by 45%.",
     avatar: "/api/placeholder/64/64"
   },
   {
     id: "5",
-    name: "Lisa Thompson",
+    name: "Neha Agarwal",
     role: "Marketing Director",
-    company: "Creative Agency Pro",
-    content: "The mobile app they developed for us has received rave reviews on both iOS and Android. The attention to detail in the UI/UX design and the smooth performance has delighted our users.",
+    company: "Partsbaba",
+    content: "The e-commerce platform they developed for our parts business has received incredible feedback. The advanced filtering system and smooth checkout process has delighted our customers.",
     avatar: "/api/placeholder/64/64"
   },
   {
     id: "6",
-    name: "James Wilson",
+    name: "Arjun Reddy",
     role: "Operations Manager",
-    company: "LogiTech Industries",
-    content: "Endustry Plant's web design services created a professional online presence that truly represents our brand. The SEO optimization and fast loading times have significantly improved our online visibility.",
+    company: "Island Rangoli",
+    content: "Endustry Plant's web design services created a stunning online presence for our rangoli collection. The appealing design and efficient cart management significantly improved our sales.",
+    avatar: "/api/placeholder/64/64"
+  },
+  {
+    id: "7",
+    name: "Dr. Sneha Verma",
+    role: "Founder",
+    company: "Bijnis",
+    content: "The B2B marketplace they built for us has revolutionized how retailers source wholesale clothing. Their technical expertise and understanding of Indian retail made all the difference.",
+    avatar: "/api/placeholder/64/64"
+  },
+  {
+    id: "8",
+    name: "Ravi Gupta",
+    role: "CTO",
+    company: "Creative Studio Agency",
+    content: "Working with Endustry Plant transformed our digital presence. They delivered a complete agency website in just 7 days with stunning animations and portfolio showcases.",
     avatar: "/api/placeholder/64/64"
   }
 ];
@@ -71,31 +87,45 @@ export const testimonialsCards: TestimonialCard[] = [
 export const simpleTestimonials: SimpleTestimonial[] = [
   {
     id: "1",
-    name: "Alex Rivera",
-    role: "Startup Founder",
-    company: "NextGen Apps",
-    content: "Endustry Plant delivered our MVP ahead of schedule with exceptional quality. Their communication was transparent throughout the project."
+    name: "Suresh Mehta",
+    role: "Bijnis Founder",
+    company: "Bijnis",
+    content: "Endustry Plant delivered our B2B e-commerce platform ahead of schedule with exceptional quality. Their communication was transparent throughout the project."
   },
   {
     id: "2",
-    name: "Maria Gonzalez",
+    name: "Deepika Nair",
     role: "Product Owner",
-    company: "InnovateCorp",
-    content: "The team's technical expertise and problem-solving skills are impressive. They built exactly what we needed and more."
+    company: "Veera Health",
+    content: "The team's technical expertise and problem-solving skills are impressive. They built exactly what we needed and more for our PCOS platform."
   },
   {
     id: "3",
-    name: "Robert Davis",
-    role: "Engineering Lead",
-    company: "ScaleTech",
-    content: "Outstanding code quality and modern architecture. The solution they provided has scaled beautifully with our growing user base."
+    name: "Karan Malhotra",
+    role: "Operations Lead",
+    company: "Partsbaba",
+    content: "Outstanding code quality and modern architecture. The solution they provided has scaled beautifully with our growing customer base."
   },
   {
     id: "4",
-    name: "Jennifer Lee",
-    role: "Creative Director",
-    company: "DesignHub",
-    content: "Their design sensibility is top-notch. They created a user experience that our clients absolutely love."
+    name: "Shreya Iyer",
+    role: "Creative Head",
+    company: "Dreams in Frames",
+    content: "Their design sensibility is top-notch. They created a user experience that our wedding photography clients absolutely love."
+  },
+  {
+    id: "5",
+    name: "Amit Desai",
+    role: "Sales Manager",
+    company: "Island Rangoli",
+    content: "The e-commerce platform for our rangoli business has increased our online sales tremendously. The user-friendly design and efficient cart system work perfectly."
+  },
+  {
+    id: "6",
+    name: "Dr. Rekha Menon",
+    role: "Medical Director",
+    company: "Veera Health",
+    content: "Their telemedicine platform for PCOS treatment is revolutionary. The AI-powered features help us provide personalized care to thousands of patients across India."
   }
 ];
 
